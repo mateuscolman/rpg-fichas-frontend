@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Confortaa';
+    src: url('../../font/Comfortaa-Bold.ttf');
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../../img/background/backgroun-login.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Login{
+
+    align-content: center;
+    display: grid;
+    height: 300px;
+    width: 320px;
+    color: rgba(247, 247, 247, 0.50);
+    background: url('../../img/textures/old-paper.jpg') no-repeat;
+    border: solid 6px rgb(37, 21, 1) ;
+    border-radius: 2px;
+}
+
+.Login-Field{
+    font-family: 'Confortaa';
+    border: none;
+    background: rgb(255, 255, 255) ;
+    color: black;
+    font-size: 15px;
+    width: 80%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: all .1s linear;
+}
+
+.Login-Field:focus{
+    outline: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.274);
+}
+
+.Login-Error {
+    color: #ff8080;
+}
+
+.Login-Btn{
+    background: url(../../img/icons/entry.png) ;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+    padding: 5px 10px;
+    height: 30px;
+    width: 100px;
+    transition: all .1s linear;
+    color: rgba(247, 247, 247, 0.50);
+}
+
+.Login-Btn:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.Login-Icon{
+    display: block fixed;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p{
+    font-family: 'Confortaa';
+    font-size: 20px;
+    color: black;
+    margin: auto;
+}
+
+.Login-Data{
+    margin-top: 5px;
+}
+
+.Login-Icon-Pos{
+    position: relative;
+}

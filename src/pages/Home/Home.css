@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Confortaa';
+    src: url('../../font/Comfortaa-Bold.ttf');
+}
+
+
+@font-face {
+    font-family: 'Versal';
+    src: url('../../font/versal.ttf');
+}
+
+*{
+    font-family: 'Confortaa';
+}
+
+
+.Home-MyGames{
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+    margin-top: -200px;
+}
+
+.Home-Games{
+    background: rgba(0, 0, 0, 0.20);
+    align-content: center;
+    height: 200px;
+    width: 1000px;
+    overflow-x: auto;
+    white-space: nowrap;   
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.Home-Games
+
+article{
+    display: inline-block;
+}
+
+strong{
+    display: inline-block;
+}
+
+.Home-Game-List{
+    display: inline-block;
+    /* position: relative; */
+    height: 150px;
+    width: 300px;
+    background: url(../../img/textures/old-paper.jpg);
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 2s;
+}
+
+.Home-Game-List:hover{
+    filter: contrast(300%);
+    filter: drop-shadow(10%);
+}
+
+input{
+    background: rgba(0, 0, 0, 0.50);
+    border: none;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 4px 4px rgba(119, 119, 119, 0.384);
+}
+
+.Home-Game-Name{
+    display: grid;
+    width: 270px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+    font-family: 'Versal';
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.Home-Game-Reference{
+    margin-top: -100px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.25); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(122, 68, 6, 0.50);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(122, 68, 6, 0.80); 
+}
